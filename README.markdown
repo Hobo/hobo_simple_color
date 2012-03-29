@@ -4,7 +4,7 @@ This is a plugin for [Hobo](http://hobocentral.net) that provides [jQuery Simple
 
 It can be installed into a Hobo app by typing:
 
-    hobo generate install_plugin hobo_simple_color git://github.com/Hobo/hobo_simple_color.git
+    hobo generate install_plugin hobo_simple_color
 
 The source for this plugin lives at git://github.com/Hobo/hobo_simple_color.   Pull requests are welcome.
 
