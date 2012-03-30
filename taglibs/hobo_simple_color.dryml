@@ -32,6 +32,7 @@ All attributes supported by [jQuery Simple Color](https://github.com/recurser/jq
 <def tag="simple-color" attrs="name"><%=
   options, attrs = attributes.partition_hash(['defaultColor', 'border', 'cellWidth', 'cellHeight', 'cellMargin', 'boxWidth', 'boxHeight', 'columns', 'insert', 'buttonClass', 'colors', 'displayColorCode', 'colorCodeAlign', 'colorCodeColor'])
   add_data_rapid!(attrs, 'simple-color', options)
+  name ||= param_name_for_this
   text_field_tag(name, this, deunderscore_attributes(attrs))
 %></def>
 
