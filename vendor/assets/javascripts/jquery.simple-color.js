@@ -122,9 +122,6 @@
 
         // Figure out the cell dimensions
         options.totalWidth = options.columns * (options.cellWidth + (2 * options.cellMargin));
-        if ($.browser.msie) {
-            options.totalWidth += 2;
-        }
 
         options.totalHeight = Math.ceil(options.colors.length / options.columns) * (options.cellHeight + (2 * options.cellMargin));
 
