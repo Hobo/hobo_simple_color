@@ -13,5 +13,4 @@ Gem::Specification.new do |s|
   s.summary     = "Hobofication of jQuery Simple Color"
   s.description = "Hobofication of [jQuery Simple Color](https://github.com/recurser/jquery-simple-color)"
 
-  s.files = `git ls-files -z`.split('�')
 end
